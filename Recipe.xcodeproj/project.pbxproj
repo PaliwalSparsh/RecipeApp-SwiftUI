@@ -21,6 +21,8 @@
 		7563609B29957AFD0043F51A /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7563609A29957AFC0043F51A /* DataService.swift */; };
 		75B6EC862999D47F00F3B746 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B6EC852999D47F00F3B746 /* RecipeDetailView.swift */; };
 		75E878F0299A0794006AB5D4 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E878EF299A0794006AB5D4 /* RecipeTabView.swift */; };
+		75E878F2299B632A006AB5D4 /* GeometryReaderPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E878F1299B632A006AB5D4 /* GeometryReaderPractice.swift */; };
+		75E878F4299C0698006AB5D4 /* RecipeFeaturedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E878F3299C0698006AB5D4 /* RecipeFeaturedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		7563609A29957AFC0043F51A /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		75B6EC852999D47F00F3B746 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		75E878EF299A0794006AB5D4 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
+		75E878F1299B632A006AB5D4 /* GeometryReaderPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderPractice.swift; sourceTree = "<group>"; };
+		75E878F3299C0698006AB5D4 /* RecipeFeaturedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				756360782994B50D0043F51A /* RecipeListView.swift */,
-				756360912994B97A0043F51A /* PizzaView.swift */,
 				75B6EC852999D47F00F3B746 /* RecipeDetailView.swift */,
 				75E878EF299A0794006AB5D4 /* RecipeTabView.swift */,
+				75E878F3299C0698006AB5D4 /* RecipeFeaturedView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -125,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				756360932994C3940043F51A /* Optionals.swift */,
+				756360912994B97A0043F51A /* PizzaView.swift */,
+				75E878F1299B632A006AB5D4 /* GeometryReaderPractice.swift */,
 			);
 			path = Practice;
 			sourceTree = "<group>";
@@ -216,11 +222,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E878F4299C0698006AB5D4 /* RecipeFeaturedView.swift in Sources */,
 				7563609B29957AFD0043F51A /* DataService.swift in Sources */,
 				75B6EC862999D47F00F3B746 /* RecipeDetailView.swift in Sources */,
 				756360792994B50D0043F51A /* RecipeListView.swift in Sources */,
 				756360772994B50D0043F51A /* RecipeApp.swift in Sources */,
 				7563608E2994B9180043F51A /* PizzaModel.swift in Sources */,
+				75E878F2299B632A006AB5D4 /* GeometryReaderPractice.swift in Sources */,
 				756360942994C3940043F51A /* Optionals.swift in Sources */,
 				756360882994B5350043F51A /* RecipeModel.swift in Sources */,
 				75E878F0299A0794006AB5D4 /* RecipeTabView.swift in Sources */,

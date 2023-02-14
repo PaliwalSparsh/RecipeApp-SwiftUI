@@ -41,6 +41,11 @@ class DataService {
                     
                     // ***Recipe Model was initially a struct, in a for loop when we say r in recipeData, internally while looping it does let r = recipeData[0], and recipe data is passed by value, and if we add r.id = UUID(), it will be changed in the temp r created for this iteration. However, we want to make changes to the actual value so we would need to change our struct to class, so values are passed by reference. Keep in mind while iterating over structs that their value is getting passed and not their reference.
                     r.id = UUID()
+                    
+                    // Add id to ingredients
+                    for i in r.ingredients {
+                        i.id = UUID()
+                    }
                 }
                 
                 // Assign data to published property

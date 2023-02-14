@@ -20,9 +20,9 @@ struct RecipeDetailView: View {
             VStack(alignment: .leading) {
                 //MARK: Ingredients
                 Text("Ingredients").font(.headline).padding([.top, .bottom], 2)
-                ForEach(recipe.ingredients, id: \.self) {
+                ForEach(recipe.ingredients) {
                     ingredient in
-                    Text("- " + ingredient)
+                    Text("- " + ingredient.name)
                 }
                 
                 Divider()
